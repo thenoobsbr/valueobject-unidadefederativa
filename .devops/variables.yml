@@ -1,0 +1,4 @@
+variables:
+  - group: valueobjects-unidadesfederativas
+  - group: sonar
+  - group: nuget

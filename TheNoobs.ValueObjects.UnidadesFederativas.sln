@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8E81DD69-53A7-4B1E-9416-C91E2BEEE0F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheNoobs.ValueObjects.UnidadesFederativas", "src\TheNoobs.ValueObjects.UnidadesFederativas\TheNoobs.ValueObjects.UnidadesFederativas.csproj", "{4D301BAC-90BA-45F5-BF3C-420F462C4B72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6094094B-3EA0-4E06-ACBC-F187C80F8614}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheNoobs.ValueObjects.UnidadesFederativas.UnitTests", "tests\TheNoobs.ValueObjects.UnidadesFederativas.UnitTests\TheNoobs.ValueObjects.UnidadesFederativas.UnitTests.csproj", "{15A1EEFD-27B7-43C6-BF96-7603FCDBC858}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B9A283B-1926-4DB3-A0AE-6F83742B142B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		coverlet.runsettings = coverlet.runsettings
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".devops", ".devops", "{FEBBB750-DC80-4D73-8FDC-24245E8BFC35}"
+	ProjectSection(SolutionItems) = preProject
+		.devops\azuredevops.yml = .devops\azuredevops.yml
+		.devops\variables.yml = .devops\variables.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{2A9C98E6-0C92-41FD-AA63-1B3AAB863FD2}"
+	ProjectSection(SolutionItems) = preProject
+		images\icon.png = images\icon.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D301BAC-90BA-45F5-BF3C-420F462C4B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D301BAC-90BA-45F5-BF3C-420F462C4B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D301BAC-90BA-45F5-BF3C-420F462C4B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D301BAC-90BA-45F5-BF3C-420F462C4B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A1EEFD-27B7-43C6-BF96-7603FCDBC858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A1EEFD-27B7-43C6-BF96-7603FCDBC858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A1EEFD-27B7-43C6-BF96-7603FCDBC858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A1EEFD-27B7-43C6-BF96-7603FCDBC858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D301BAC-90BA-45F5-BF3C-420F462C4B72} = {8E81DD69-53A7-4B1E-9416-C91E2BEEE0F9}
+		{15A1EEFD-27B7-43C6-BF96-7603FCDBC858} = {6094094B-3EA0-4E06-ACBC-F187C80F8614}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B80FAB1-8DAA-4B61-B7DE-50C3C52C3461}
+	EndGlobalSection
+EndGlobal

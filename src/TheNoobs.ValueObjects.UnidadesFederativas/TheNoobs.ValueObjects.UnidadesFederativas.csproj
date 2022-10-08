@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>true</IsPackable>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <OutputType>library</OutputType>
+    <GenerateFullPaths>true</GenerateFullPaths>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyTitle>TheNoobs.ValueObjects.UnidadesFederativas</AssemblyTitle>
+    <AssemblyName>TheNoobs.ValueObjects.UnidadesFederativas</AssemblyName>
+    <RootNamespace>TheNoobs.ValueObjects.UnidadesFederativas</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>The Noobs</Authors>
+    <NeutralLanguage>pt-BR</NeutralLanguage>
+    <Description>Value objects que repersentam Unidades Federativas (UFs) do Brasil e suas regiões.</Description>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageId>TheNoobs.ValueObjects.UnidadesFederativas</PackageId>
+    <PackageTags>ValueObjects;vo;ufs;brasil;</PackageTags>
+    <UserSecretsId>3254d054-be61-4382-97b8-39c03b79c2f2</UserSecretsId>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/thenoobsbr/valueobjects-unidadesfederativas.git</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\images\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="TheNoobs.ValueObjects.Abstractions" Version="1.0.0" />
+  </ItemGroup>
+</Project>
