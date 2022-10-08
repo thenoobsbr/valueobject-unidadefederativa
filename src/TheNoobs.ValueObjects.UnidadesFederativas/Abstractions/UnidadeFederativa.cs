@@ -4,7 +4,7 @@ namespace TheNoobs.ValueObjects.UnidadesFederativas.Abstractions;
 
 public abstract record UnidadeFederativa
 {
-    internal UnidadeFederativa(string sigla, string nome, Regiao regiao)
+    private protected UnidadeFederativa(string sigla, string nome, Regiao regiao)
     {
         Nome = nome;
         Regiao = regiao;

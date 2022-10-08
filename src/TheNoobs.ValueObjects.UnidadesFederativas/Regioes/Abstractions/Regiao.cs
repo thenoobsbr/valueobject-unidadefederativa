@@ -2,7 +2,7 @@
 
 public abstract record Regiao
 {
-    internal Regiao()
+    private protected Regiao()
     {
     }
 
