@@ -32,7 +32,4 @@
   <ItemGroup>
     <None Include="..\..\images\icon.png" Pack="true" PackagePath="\" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="TheNoobs.ValueObjects.Abstractions" Version="1.0.0" />
-  </ItemGroup>
 </Project>
