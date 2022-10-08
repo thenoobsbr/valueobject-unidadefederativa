@@ -11,10 +11,6 @@ trigger:
   tags:
     include:
     - '*'
-  branches:
-    include:
-    - release/*
-    - hotfix/*
 
 pr:
   branches:
