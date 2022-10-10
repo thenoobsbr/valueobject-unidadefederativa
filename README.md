@@ -29,8 +29,6 @@ E ainda, pode-se obter uma `UnidadeFederativa` através de sua siglas, seja usan
 var uf = UnidadesFederativas.Get("GO");
 ```
 
----
-> ♥ Made with love!
 Ou através das constantes:
 
 ```csharp
@@ -38,3 +36,6 @@ var uf = UnidadesFederativas.Get(Siglas.SAO_PAULO);
 ```
 
 Caso seja passada uma sigla inválida para o método Get, uma exceção do tipo `ArgumentException` será disparada.
+
+---
+> ♥ Made with love!
