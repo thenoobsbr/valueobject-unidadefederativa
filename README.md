@@ -29,6 +29,8 @@ E ainda, pode-se obter uma `UnidadeFederativa` através de sua siglas, seja usan
 var uf = UnidadesFederativas.Get("GO");
 ```
 
+---
+> ♥ Made with love!
 Ou através das constantes:
 
 ```csharp
