@@ -5,45 +5,41 @@ namespace TheNoobs.ValueObjects.UnidadesFederativas;
 
 public static class UnidadesFederativas
 {
-    private static readonly IDictionary<string, UnidadeFederativa> _unidadesFederativas;
+    private const int QUANTIDADE_ESTADOS = 29;
 
-    static UnidadesFederativas()
-    {
-        const int QUANTIDADE_ESTADOS = 29;
-        _unidadesFederativas =
-            new Dictionary<string, UnidadeFederativa>(QUANTIDADE_ESTADOS, StringComparer.OrdinalIgnoreCase)
-            {
-                {Siglas.ACRE, new Acre()},
-                {Siglas.ALAGOAS, new Alagoas()},
-                {Siglas.AMAPA, new Amapa()},
-                {Siglas.AMAZONAS, new Amazonas()},
-                {Siglas.BAHIA, new Bahia()},
-                {Siglas.CEARA, new Ceara()},
-                {Siglas.DISTRITO_FEDERAL, new DistritoFederal()},
-                {Siglas.ESPIRITO_SANTO, new EspiritoSanto()},
-                {Siglas.GOIAS, new Goias()},
-                {Siglas.MARANHAO, new Maranhao()},
-                {Siglas.MATO_GROSSO, new MatoGrosso()},
-                {Siglas.MATO_GROSSO_DO_SUL, new MatoGrossoDoSul()},
-                {Siglas.MINAS_GERAIS, new MinasGerais()},
-                {Siglas.PARA, new Para()},
-                {Siglas.PARAIBA, new Paraiba()},
-                {Siglas.PARANA, new Parana()},
-                {Siglas.PERNAMBUCO, new Pernambuco()},
-                {Siglas.PIAUI, new Piaui()},
-                {Siglas.RIO_DE_JANEIRO, new RioDeJaneiro()},
-                {Siglas.RIO_GRANDE_DO_NORTE, new RioGrandeDoNorte()},
-                {Siglas.RIO_GRANDE_DO_SUL, new RioGrandeDoSul()},
-                {Siglas.RONDONIA, new Rondonia()},
-                {Siglas.RORAIMA, new Roraima()},
-                {Siglas.SANTA_CATARINA, new SantaCatarina()},
-                {Siglas.SAO_PAULO, new SaoPaulo()},
-                {Siglas.SERGIPE, new Sergipe()},
-                {Siglas.TOCANTINS, new Tocantins()},
-                {Siglas.EXPORTACAO, new Exportacao()},
-                {Siglas.EXTERIOR, new Exterior()}
-            };
-    }
+    private static readonly IDictionary<string, UnidadeFederativa> _unidadesFederativas =
+        new Dictionary<string, UnidadeFederativa>(QUANTIDADE_ESTADOS, StringComparer.OrdinalIgnoreCase)
+        {
+            {Siglas.ACRE, new Acre()},
+            {Siglas.ALAGOAS, new Alagoas()},
+            {Siglas.AMAPA, new Amapa()},
+            {Siglas.AMAZONAS, new Amazonas()},
+            {Siglas.BAHIA, new Bahia()},
+            {Siglas.CEARA, new Ceara()},
+            {Siglas.DISTRITO_FEDERAL, new DistritoFederal()},
+            {Siglas.ESPIRITO_SANTO, new EspiritoSanto()},
+            {Siglas.GOIAS, new Goias()},
+            {Siglas.MARANHAO, new Maranhao()},
+            {Siglas.MATO_GROSSO, new MatoGrosso()},
+            {Siglas.MATO_GROSSO_DO_SUL, new MatoGrossoDoSul()},
+            {Siglas.MINAS_GERAIS, new MinasGerais()},
+            {Siglas.PARA, new Para()},
+            {Siglas.PARAIBA, new Paraiba()},
+            {Siglas.PARANA, new Parana()},
+            {Siglas.PERNAMBUCO, new Pernambuco()},
+            {Siglas.PIAUI, new Piaui()},
+            {Siglas.RIO_DE_JANEIRO, new RioDeJaneiro()},
+            {Siglas.RIO_GRANDE_DO_NORTE, new RioGrandeDoNorte()},
+            {Siglas.RIO_GRANDE_DO_SUL, new RioGrandeDoSul()},
+            {Siglas.RONDONIA, new Rondonia()},
+            {Siglas.RORAIMA, new Roraima()},
+            {Siglas.SANTA_CATARINA, new SantaCatarina()},
+            {Siglas.SAO_PAULO, new SaoPaulo()},
+            {Siglas.SERGIPE, new Sergipe()},
+            {Siglas.TOCANTINS, new Tocantins()},
+            {Siglas.EXPORTACAO, new Exportacao()},
+            {Siglas.EXTERIOR, new Exterior()}
+        };
 
     public static UnidadeFederativa Acre => Get(Siglas.ACRE);
     public static UnidadeFederativa Alagoas => Get(Siglas.ALAGOAS);
